@@ -2,6 +2,7 @@ import cv2
 
 #0 is the representation of your camera, it starts from 0, number 1 is your second connected USB webcam
 camera = cv2.VideoCapture(0)
+# change cv2.VideoCapture("Video path") for video
 
 #Videos are actually multiple frames processed frame-by-frame
 while True:
